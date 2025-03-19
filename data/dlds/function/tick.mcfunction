@@ -1,0 +1,1 @@
+execute as @a[tag=!rewards] run function dlds:start
