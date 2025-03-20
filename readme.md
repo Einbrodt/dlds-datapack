@@ -4,7 +4,7 @@ Basierend auf der 2. Staffel von "Die Liga der Sterblichen".
 
 ## Installation
 
-1. Lade das Repository herunter.
+1. Lade die letzte Release-"dlds"-Datei herunter.
 2. Entpacke die ZIP-Datei.
 3. Kopiere den Ordner `dlds` in den `datapacks`-Ordner deiner Welt.
 
