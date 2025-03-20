@@ -1,5 +1,5 @@
 execute as @a[advancements={minecraft:story/mine_stone=true}, tag=!mine_stone_reward] run function dlds:advancements/story/mine_stone
-execute as @a[advancements={minecraft:story/root=true}, tag=!root_reward] run function dlds:advancements/story/root
+execute as @a[advancements={minecraft:story/root=true}, tag=!root_story_reward] run function dlds:advancements/story/root
 execute as @a[advancements={minecraft:story/upgrade_tools=true}, tag=!upgrade_tools_reward] run function dlds:advancements/story/upgrade_tools
 execute as @a[advancements={minecraft:story/smelt_iron=true}, tag=!smelt_iron_reward] run function dlds:advancements/story/smelt_iron
 execute as @a[advancements={minecraft:story/obtain_armor=true}, tag=!obtain_armor_reward] run function dlds:advancements/story/obtain_armor
@@ -44,7 +44,7 @@ execute as @a[advancements={minecraft:end/kill_dragon=true}, tag=!kill_dragon_re
 execute as @a[advancements={minecraft:end/dragon_breath=true}, tag=!dragon_breath_reward] run function dlds:advancements/end/dragon_breath
 execute as @a[advancements={minecraft:end/elytra=true}, tag=!elytra_reward] run function dlds:advancements/end/elytra
 execute as @a[advancements={minecraft:end/levitate=true}, tag=!levitate_reward] run function dlds:advancements/end/levitate
-execute as @a[advancements={minecraft:adventure/root=true}, tag=!root_reward] run function dlds:advancements/adventure/root
+execute as @a[advancements={minecraft:adventure/root=true}, tag=!root_adventure_reward] run function dlds:advancements/adventure/root
 execute as @a[advancements={minecraft:adventure/kill_a_mob=true}, tag=!kill_a_mob_reward] run function dlds:advancements/adventure/kill_a_mob
 execute as @a[advancements={minecraft:adventure/sleep_in_bed=true}, tag=!sleep_in_bed_reward] run function dlds:advancements/adventure/sleep_in_bed
 execute as @a[advancements={minecraft:adventure/trade=true}, tag=!trade_reward] run function dlds:advancements/adventure/trade
@@ -87,7 +87,7 @@ execute as @a[advancements={minecraft:adventure/hero_of_the_village=true}, tag=!
 execute as @a[advancements={minecraft:adventure/kill_all_mobs=true}, tag=!kill_all_mobs_reward] run function dlds:advancements/adventure/kill_all_mobs
 execute as @a[advancements={minecraft:adventure/read_power_of_chiseled_bookshelf=true}, tag=!read_power_of_chiseled_bookshelf_reward] run function dlds:advancements/adventure/read_power_of_chiseled_bookshelf
 execute as @a[advancements={minecraft:adventure/trim_with_all_exclusive_armor_patterns=true}, tag=!trim_with_all_exclusive_armor_patterns_reward] run function dlds:advancements/adventure/trim_with_all_exclusive_armor_patterns
-execute as @a[advancements={minecraft:husbandry/root=true}, tag=!root_reward] run function dlds:advancements/husbandry/root
+execute as @a[advancements={minecraft:husbandry/root=true}, tag=!root_husbandry_reward] run function dlds:advancements/husbandry/root
 execute as @a[advancements={minecraft:husbandry/safely_harvest_honey=true}, tag=!safely_harvest_honey_reward] run function dlds:advancements/husbandry/safely_harvest_honey
 execute as @a[advancements={minecraft:husbandry/tame_an_animal=true}, tag=!tame_an_animal_reward] run function dlds:advancements/husbandry/tame_an_animal
 execute as @a[advancements={minecraft:husbandry/plant_seed=true}, tag=!plant_seed_reward] run function dlds:advancements/husbandry/plant_seed
