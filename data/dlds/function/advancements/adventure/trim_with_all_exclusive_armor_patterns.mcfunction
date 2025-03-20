@@ -6,4 +6,4 @@ data modify storage dlds:reward item1 set value {name:"Verzaubertes Buch Schusss
 give @s enchanted_book[stored_enchantments={levels:{projectile_protection:4}}] 1
 
 execute as @s run function dlds:display_reward
-tag @s add trim_with_all_exclusive_patterns_reward
+tag @s add trim_with_all_exclusive_armor_patterns_reward
