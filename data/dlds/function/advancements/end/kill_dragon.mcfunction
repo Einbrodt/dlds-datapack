@@ -6,4 +6,4 @@ data modify storage dlds:reward item1 set value {name:"Totem der Unsterblichkeit
 give @s minecraft:totem_of_undying 1
 
 execute as @a run function dlds:display_reward
-tag @s add root_end_reward
+tag @s add kill_dragon_reward

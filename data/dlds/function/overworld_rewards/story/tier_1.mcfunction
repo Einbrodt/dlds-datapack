@@ -5,3 +5,4 @@ data modify storage dlds:reward item1 set value {name:"Roheisen",Count:1}
 
 give @s minecraft:raw_iron 1
 
+execute as @a run function dlds:display_reward
